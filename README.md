@@ -1,5 +1,6 @@
 
 # Loja de Roupas InStyle - Classificador da Satisfação dos Clientes
+![](img/capa_instyle.jpg)
 
 A InStyle é uma das maiores lojas de roupas dos Estados Unidos que passa por problemas de experiência do cliente. O grande da empresa é manter a qualidade do produto e a taxa de satisfação do cliente em alta.
 
@@ -64,25 +65,28 @@ Uma tabela disponilizada por meio do Google Sheets, que contém os ID dos client
 Durante a Análise Exploratório dos dados foram levantadas hipóteses de negócio, as quais pode gerar novas informações ou contrapor crenças já estabelecidas, como resultado são gerados insights acionáveis ao time de negócio, podendo ser usados como direcionamento para tomada de decisão.
 
 ### *Hipótese 1 - Quem faz compras pessoais (uso próprio) fica mais satisfeito.*
+![](img/H1.png)
 
 **Falso:** Um dos possíveis motivos pode ser que esses clientes não usam de algumas features da loja, como o provador, lugar de espera, Wifi que podem estar impactando negativamente sua experiência. Nao podemos descartar a hipótese de que há um problema em relação à qualidade do produto.
 
 ### *Hipótese 2 - Clientes que dão notas 4 ou 5 em relação ao serviço da loja, ficam mais satisfeitos.*
+![](img/H2.png)
 
 **Falso :** Nota-se que mesmo com uma nota 4, ainda temos mais clientes insatisfeitos em maior número, fato que só muda na avaliação nota 5, onde temos um maior número de clientes satisfeitos. É preciso enfatizar a necessidade de oferecer um serviço excelente para otimizar a satisfação dos clientes, seja através de treinamentos, melhora na estrutura interna das lojas ou de outras informações obtidas com pesquisas.
 
 ### *Hipótese 3 - Quanto maior o tempo de entrega maior a insatisfação.*
+![](img/H3.png)
 
 **Verdadeiro:**  Quanto maior o atraso na entrega ( seja na operação ou na logística), maior a chance do cliente ficar insatisfeito. Isso ressalta na importância de se ter uma operação focada e entregando no prazo e serem áreas de destaque para receberem recursos.
 
 #### *Cenários de possiveis ações:*
-
 
 - Foco na compra online, menos custos relacionados à loja física e maior satisfação dos clientes.
     
 - Otimização no sistema online para evitar sobrecargas e/ou possíveis ausências de dados.
     
 - Avaliação das operações logísticas para entender os motivos de atrasos dentro e fora da operação.
+
 ## 4. Modelos de Machine Learning
 
 No primeiro ciclo do projeto, foram testados quatro algoritmos  para escolher o melhor em termos de desempenho e custo de implementação.
@@ -104,15 +108,16 @@ O algoritmo Lightgbm foi escolhido pelos seguintes motivos:
 
 ### 4.2 Ajuste dos Hiperparâmetros 
 
-Nesse problema em questão, o ajuste foi o fator principal para o desempenho do algoritmo e foi basntente explorado, segue como ilustração um gráfico de variação dos hiperparâmetros e como essa variação afetou o desempenho do modelo.
-
-
+Nesse problema em questão, o ajuste foi o fator principal para o desempenho do algoritmo e foi bastante explorado, segue como ilustração um gráfico de variação dos hiperparâmetros e como essa variação afetou o desempenho do modelo.
+![](img/hiper.png)
 
 O gráfico auxilou na delimitação do range para encontrar mais facilmente os parametros ideais para atingir uma maior precisão.
 
 ### 4.3 Resultado do Modelo Treinado
 
 O Algoritmo Lightgbm apresentou o melhor Precisão no treinamento do modelo, apresentando uma Precisão de 0.95127 nos dados de teste. 
+![](img/mc.png)
+
 Segue a Matriz de confusão obtida no treinamento do modelo, onde são demonstrado os acertos e erros do modelo em relação as duas classes da variável resposta.Vale notar que os quadrantes em azul são onde o modelo fez a previsão correta, e os demais onde ele errou.
 
 
