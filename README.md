@@ -1,5 +1,5 @@
 
-# Loja de Roupas InStyle - Classificador da Satisfação dos Clientes
+# Loja de Roupas InStyle - Classificação da Satisfação dos Clientes
 ![](img/capa_instyle.jpg)
 
 A InStyle é uma das maiores lojas de roupas dos Estados Unidos que passa por problemas de experiência do cliente. O grande da empresa é manter a qualidade do produto e a taxa de satisfação do cliente em alta.
