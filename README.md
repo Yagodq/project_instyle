@@ -115,10 +115,10 @@ O gráfico auxilou na delimitação do range para encontrar mais facilmente os p
 
 ### 4.3 Resultado do Modelo Treinado
 
-O Algoritmo Lightgbm apresentou o melhor Precisão no treinamento do modelo, apresentando uma Precisão de 0.95127 nos dados de teste. 
+O Algoritmo Lightgbm apresentou o melhor Precisão no treinamento do modelo, apresentando uma precision de 0.95127% nos dados de teste. 
 ![](img/mc.png)
 
-Segue a Matriz de confusão obtida no treinamento do modelo, onde são demonstrado os acertos e erros do modelo em relação as duas classes da variável resposta.Vale notar que os quadrantes em azul são onde o modelo fez a previsão correta, e os demais onde ele errou.
+O gráfico acima ilustra a Matriz de confusão obtida no treinamento do modelo, onde são demonstrado os acertos e erros do modelo em relação as duas classes da variável resposta. Vale notar que os quadrantes em azul são onde o modelo fez a previsão correta, e os em branco representam onde ele errou.
 
 
 ## 5. Resultado de Negócio
